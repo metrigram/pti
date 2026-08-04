@@ -47,14 +47,14 @@ For the full specification and formal proofs, see the paper.
 
 ## Paper
 
-> Hector M. Trevino. *PTI: A Hierarchical Symbolic Color Addressing System.* [arXiv link TBD]
+> Hector M. Trevino. *PTI: A Hierarchical Symbolic Color Addressing System.* [arXiv:2608.02460](https://arxiv.org/abs/2608.02460)
 
 ```bibtex
 @misc{trevino2026pti,
   author = {Trevino, Hector M.},
   title = {{PTI}: A Hierarchical Symbolic Color Addressing System},
   year = {2026},
-  note = {arXiv:[ID TBD]}
+  note = {arXiv:2608.02460}
 }
 ```
 
