@@ -93,12 +93,10 @@ function rotationOrbit(addr) {
 /**
  * Return all depth-8 addresses with a given prefix (a PTI address family).
  * @param {string} prefix - depth-d prefix (1, 2, or 4 digits)
- * @param {number} [depth=2] - depth of the prefix
- * @returns {string[]} all 8^(8-depth) addresses in this family
+ * @returns {string[]} all 8^(8-prefix.length) addresses in this family
  */
-function family(prefix, depth) {
-    depth = (depth === undefined) ? prefix.length : depth;
-    const remaining = 8 - depth;
+function family(prefix) {
+    const remaining = 8 - prefix.length;
     const results = [];
     const total = Math.pow(8, remaining);
     for (let i = 0; i < total; i++) {

@@ -49,9 +49,7 @@ def rotation_orbit(addr):
     return result
 
 
-def family(prefix, depth=None):
+def family(prefix):
     """Return all depth-8 addresses with the given prefix."""
-    if depth is None:
-        depth = len(prefix)
-    remaining = 8 - depth
+    remaining = 8 - len(prefix)
     return [prefix + oct(i)[2:].zfill(remaining) for i in range(8 ** remaining)]
