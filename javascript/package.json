@@ -1,0 +1,35 @@
+{
+  "name": "@metrigram/pti",
+  "version": "1.0.0",
+  "description": "PTI (Persistent Traversal Identity) — a hierarchical 8-digit address for every RGB color.",
+  "main": "pti.js",
+  "module": "pti.mjs",
+  "exports": {
+    ".": {
+      "import": "./pti.mjs",
+      "require": "./pti.js"
+    }
+  },
+  "files": [
+    "pti.js",
+    "pti.mjs"
+  ],
+  "keywords": [
+    "color",
+    "rgb",
+    "hex",
+    "color-space",
+    "palette"
+  ],
+  "author": "Hector M. Trevino (metrigram)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metrigram/pti.git",
+    "directory": "javascript"
+  },
+  "homepage": "https://github.com/metrigram/pti#readme",
+  "bugs": {
+    "url": "https://github.com/metrigram/pti/issues"
+  }
+}
